@@ -19,33 +19,29 @@ body{
 }
 
 #header {
-	padding: 10px 10px;
 	width: 100%;
 	box-sizing: border-box;
 	background: rgba(0,0,0, .5);
+	overflow: hidden;
 }
 
 #header h1 {
+	margin: 10px 0 10px 10px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 62px;
 	color: #FFFFFF;
-	margin:0;
-}
-
-#leftColumn {
 	float: left;
-	max-width: 500px;
 }
 
-#rightColumn {
-	float:left;
-}
 
 .mainMenu {
-	display:block;
+	float: right;
+	line-height: 112px;
+	margin: 0;
 }
 .mainMenu li {
 	list-style: none;
+	display: inline-block;
 }
 
 .mainMenu li a {
@@ -58,6 +54,15 @@ body{
 }
 
 .mainMenu li a:hover {
-	border-right: 5px solid #FFFFFF;
+	border-bottom: 5px solid #FFFFFF;
+}
+
+#leftColumn {
+	float: left;
+	max-width: 500px;
+}
+
+#rightColumn {
+	float:left;
 }
 
