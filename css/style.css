@@ -6,12 +6,52 @@ body{
 }
 
 h1 {
-	font-family: "bebas-neue", sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 72px;
-	color: #b179ff;
+	color: #FFFFFF;
+	margin:0;
 }
 
 #wrapper {
+	margin: 0 10px 0 10px;
+	width: 100%;
+	overflow: hidden;
+}
 
+#header {
+	width: 100%;
+	height: 700px;
+	background-image: url('../img/headshot_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#leftColumn {
+	float: left;
+	max-width: 500px;
+}
+
+#rightColumn {
+	float:left;
+}
+
+.mainMenu {
+	display:block;
+}
+.mainMenu li {
+	list-style: none;
+}
+
+.mainMenu li a {
+	display:block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 200px;
+}
+
+.mainMenu li a:hover {
+	border-right: 5px solid #FFFFFF;
 }
 
