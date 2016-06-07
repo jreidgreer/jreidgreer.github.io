@@ -39,14 +39,23 @@ body, #wrapper, html {
 
 .hero-content {
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	left: 10px;
+	max-width: 450px;
 }
 
 .hero-content h2 {
 	color: #FFFFFF;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	background: rgba(0, 0, 0, .5);
+	padding: 5px;
+}
+
+.hero-content-text {
+	color: #FFFFFF;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: rgba(0, 0, 0, .5);
+	padding: 5px;
 }
 
 .header {
