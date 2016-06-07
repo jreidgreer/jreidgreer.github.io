@@ -1,45 +1,77 @@
-body{
-	margin: 0;
-	padding: 0;
-	background-color: #6A24CC;
-	color: #FFFFFF;
+body, html {
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
 }
+
+body, #wrapper, html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 #wrapper {
 	width: 100%;
-	overflow: hidden;
+  height: 100%;
+  display: block;
+  position: relative;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+}
+
+#wrapper .section {
+  width: 100%;
+  height: 100%;
 }
 
 #hero {
 	width: 100%;
-	height: 700px;
+	height: 100%;
 	background-image: url('../img/headshot_bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+.hero-content {
+	position: absolute;
+	top: 30%;
+	left: 10px;
+}
+
+.hero-content h2 {
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	background: rgba(0, 0, 0, .5);
+}
+
 .header {
 	width: 100%;
-	height: 112px;
+	height: 70px;
 	box-sizing: border-box;
 	background: rgba(0,0,0, .5);
 	overflow: hidden;
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 5;
 }
 
 .header h1 {
 	margin: 10px 0 10px 10px;
 	font-family: 'Oswald', sans-serif;
-	font-size: 62px;
+	font-size: 32px;
 	color: #FFFFFF;
 	float: left;
 }
 
 .mainMenu {
 	float: right;
-	line-height: 112px;
+	line-height: 70px;
 	margin: 0;
 }
 .mainMenu li {
@@ -57,7 +89,7 @@ body{
 	padding-left: 10px;
 }
 
-.mainMenu li a:hover {
+.mainMenu li a:hover, .menu-active {
 	background: rgba(255, 53, 139, 1);
 }
 
@@ -86,5 +118,31 @@ body{
 
 #rightColumn {
 	float:left;
+}
+
+.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
+  overflow: auto;
+}
+
+.disabled-onepage-scroll .onepage-wrapper .section {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+}
+.disabled-onepage-scroll .onepage-wrapper {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  transform: none !important;
+  -ms-transform: none !important;
+  min-height: 100%;
+}
+
+
+.disabled-onepage-scroll .onepage-pagination {
+  display: none;
+}
+
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+  position: inherit;
 }
 
