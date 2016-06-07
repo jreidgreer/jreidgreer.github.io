@@ -91,7 +91,7 @@ body, #wrapper, html {
 .mainMenu li a {
 	display:block;
 	font-family: 'Oswald', sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	color: #FFFFFF;
 	text-decoration: none;
 	width: 200px;
@@ -102,31 +102,23 @@ body, #wrapper, html {
 	background: rgba(255, 53, 139, 1);
 }
 
-/* Special Styling for scrolled window */
-.small-header {
-	height: 50px;
+.skills {
+	background: rgba(174, 238, 0, 1);
 }
 
-.small-header h1 {
-	font-size: 24px;
+.skills .content {
+	position: absolute;
+	top: 90px;
+	left: 10px;
+	width: 450px;
 }
 
-.small-header .mainMenu {
-	line-height: 50px;
-}
-
-.small-header .mainMenu a {
-	font-size: 12px;
-	width: 150px;
-}
-
-#leftColumn {
-	float: left;
-	max-width: 500px;
-}
-
-#rightColumn {
-	float:left;
+.skills .content h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 46px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0px rgba(0, 0, 0, .8);
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
