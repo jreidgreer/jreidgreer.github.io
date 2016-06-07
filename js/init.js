@@ -15,9 +15,16 @@ var $skills = $('#skills-container');
 
 $.getJSON('../data/skills.json', function(data) {
   data.forEach(function(skill) {
-    console.log('skill', skill.name);
-    var $skillContainer = $('span');
+    var $skillContainer = $('<li></li>', {class: 'skill'});
     $skillContainer.text(skill.name);
+
+    var $starsContainer = $('<span></span>');
+
+    for(var i = skill.rating; i > 0; i--) {
+      $starsContainer.append('&#10026;');
+    }
+
+    $skillContainer.append($starsContainer);
 
     $skills.append($skillContainer);
   });
