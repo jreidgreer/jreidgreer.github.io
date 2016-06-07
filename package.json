@@ -1,0 +1,24 @@
+{
+  "name": "jreidgreer.github.io",
+  "version": "1.0.0",
+  "description": "My personal site.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jreidgreer/jreidgreer.github.io.git"
+  },
+  "author": "Reid Greer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jreidgreer/jreidgreer.github.io/issues"
+  },
+  "homepage": "https://github.com/jreidgreer/jreidgreer.github.io#readme"
+}

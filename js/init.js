@@ -10,3 +10,15 @@ $('.main').onepage_scroll({
   keyboard: true,
   responsiveFallback: false,
 });
+
+var $skills = $('#skills-container');
+
+$.getJSON('../data/skills.json', function(data) {
+  data.forEach(function(skill) {
+    console.log('skill', skill.name);
+    var $skillContainer = $('span');
+    $skillContainer.text(skill.name);
+
+    $skills.append($skillContainer);
+  });
+});

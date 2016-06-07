@@ -1,1 +1,0 @@
-var skills = {skills.js}
