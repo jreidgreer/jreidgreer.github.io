@@ -18,21 +18,24 @@ body{
 	background-repeat: no-repeat;
 }
 
-#header {
+.header {
 	width: 100%;
+	height: 112px;
 	box-sizing: border-box;
 	background: rgba(0,0,0, .5);
 	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
-#header h1 {
+.header h1 {
 	margin: 10px 0 10px 10px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 62px;
 	color: #FFFFFF;
 	float: left;
 }
-
 
 .mainMenu {
 	float: right;
@@ -51,10 +54,29 @@ body{
 	color: #FFFFFF;
 	text-decoration: none;
 	width: 200px;
+	padding-left: 10px;
 }
 
 .mainMenu li a:hover {
-	border-bottom: 5px solid #FFFFFF;
+	background: rgba(255, 53, 139, 1);
+}
+
+/* Special Styling for scrolled window */
+.small-header {
+	height: 50px;
+}
+
+.small-header h1 {
+	font-size: 24px;
+}
+
+.small-header .mainMenu {
+	line-height: 50px;
+}
+
+.small-header .mainMenu a {
+	font-size: 12px;
+	width: 150px;
 }
 
 #leftColumn {
