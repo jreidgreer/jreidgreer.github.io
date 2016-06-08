@@ -137,24 +137,33 @@ body, #wrapper, html {
 	text-shadow: 0 1px 0px rgba(0, 0, 0, .8);
 }
 
-#skills-container {
-	columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  padding: 0;
+#skills-strong, #skills-experienced {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	margin-right: 5px;
 }
 
-#skills-container .skill {
+.skills-container .title {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 22px;
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 0px 1px 0 rgba(0,0,0,.5);
+}
+
+.skills-container .skill {
 	padding: 5px;
 	margin-top: 5px;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 16px;
 	border-radius: 3px;
-	border: 1px solid rgba(255, 255, 255, 1);
+	background: rgba(255, 255, 255, 1);
+	color: rgba(55, 55, 55, 1);
 	list-style: none;
-	-webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
+}
+
+.skills-container .skill:hover {
+	box-shadow: 1px 1px 0 0 rgba(0, 0, 0, .3);
 }
 
 .projects {

@@ -2,96 +2,96 @@
   {
     "name": "AngularJS",
     "type": 1,
-    "rating": 4
+    "rating": "Strong"
   },
   {
     "name": "ReactJS",
     "type": 1,
-    "rating": 4
+    "rating": "Strong"
   },
   {
     "name": "HTML5",
     "type": 1,
-    "rating": 4
+    "rating": "Strong"
   },
   {
     "name": "CSS3",
     "type": 1,
-    "rating": 4
+    "rating": "Strong"
   },
   {
     "name": "JavaScript",
     "type": 3,
-    "rating": 4
+    "rating": "Strong"
   },
   {
     "name": "Algorithm Design",
     "type": 3,
-    "rating": 3
+    "rating": "Strong"
   },
   {
     "name": "jQuery",
     "type": 1,
-    "rating": 3
+    "rating": "Strong"
   },
   {
     "name": "MongoDB",
     "type": 2,
-    "rating": 3
+    "rating": "Strong"
   },
   {
     "name": "Node.js",
     "type": 2,
-    "rating": 4
+    "rating": "Strong"
   },
   {
     "name": "D3",
     "type": 1,
-    "rating": 1
+    "rating": "Experienced"
   },
   {
     "name": "Backbone.js",
     "type": 1,
-    "rating": 2
+    "rating": "Experienced"
   },
   {
     "name": "Redux",
     "type": 1,
-    "rating": 3
+    "rating": "Experienced"
   },
   {
     "name": "SQL",
     "type": 3,
-    "rating": 3
+    "rating": "Experienced"
   },
   {
     "name": "MySQL",
     "type": 2,
-    "rating": 2
+    "rating": "Experienced"
   },
   {
     "name": "PostgreSQL",
     "type": 2,
-    "rating": 2
+    "rating": "Experienced"
   },
   {
     "name": "Database Migration",
     "type": 2,
-    "rating": 2
+    "rating": "Experienced"
   },
   {
     "name": "Webpack",
     "type": 3,
-    "rating": 1
+    "rating": "Experienced"
   },
   {
     "name": "React Drag & Drop",
     "type": 1,
-    "rating": 2
+    "rating": "Experienced"
   },
   {
     "name": "Data Security",
     "type": 3,
-    "rating": 1
+    "rating": "Experienced"
   }
 ]

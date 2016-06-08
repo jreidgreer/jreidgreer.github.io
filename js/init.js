@@ -11,21 +11,19 @@ $('.main').onepage_scroll({
   responsiveFallback: false,
 });
 
-var $skills = $('#skills-container');
+var $strongSkills = $('#skills-strong');
+var $experiencedSkills = $('#skills-experienced');
 
 $.getJSON('../data/skills.json', function(data) {
   data.forEach(function(skill) {
     var $skillContainer = $('<li></li>', {class: 'skill'});
     $skillContainer.text(skill.name);
-
     var $starsContainer = $('<span></span>');
 
-    for(var i = skill.rating; i > 0; i--) {
-      $starsContainer.append('&#10026;');
+    if(skill.rating === 'Strong') {
+      $strongSkills.append($skillContainer);
+    } else if (skill.rating === 'Experienced') {
+      $experiencedSkills.append($skillContainer);
     }
-
-    $skillContainer.append($starsContainer);
-
-    $skills.append($skillContainer);
   });
 });
