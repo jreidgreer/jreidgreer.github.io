@@ -109,9 +109,25 @@ body, #wrapper, html {
 .skills .content {
 	position: absolute;
 	top: 90px;
-	left: 10px;
-	width: 450px;
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
 }
+
+.skills .content .left-col {
+	width: 50%;
+	float: left;
+}
+
+.skills .content .right-col {
+	width: 45%;
+	height: 710px;
+	margin-left: 5%;
+	float: right;
+	background: url('../img/computer.svg') no-repeat center;
+	background-size: contain;
+}
+
 
 .skills .content h2 {
 	font-family: 'Oswald', sans-serif;
@@ -125,6 +141,7 @@ body, #wrapper, html {
 	columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+  padding: 0;
 }
 
 #skills-container .skill {
@@ -138,6 +155,10 @@ body, #wrapper, html {
 	-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
+}
+
+.projects {
+	background: rgba(1, 176, 240, 1);
 }
 
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
