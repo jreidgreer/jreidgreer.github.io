@@ -13,12 +13,12 @@
   },
   {
     "name": "Borrow",
-    "desc": "Cloud-based text editor with social sharing and document management",
-    "tech": ["AngularJS", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
+    "desc": "Social borrowing app that enables friends to share items & save money",
+    "tech": ["AngularJS", "PostgreSQL", "Sequelize ORM", "NodeJS", "Express"],
     "role": [
-      "Incorporated local authentication via web tokens (JWT) to protect user documents",
-      "Built a document management back-end with MongoDB that allowed storage of large text files",
-      "Integrated social sharing, allowing users to send completed documents to friends"
+      "Completed database migration from MongoDB to PostgreSQL for faster data delivery",
+      "Integrated FB & local auth with new database for multiple login options",
+      "Created a messaging system with SQL, controllers, and models for a social experience"
     ],
     "github": "https://github.com/jreidgreer/hack-reditor"
   },
