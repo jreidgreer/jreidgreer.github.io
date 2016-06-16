@@ -20,18 +20,18 @@
       "Integrated FB & local auth with new database for multiple login options",
       "Created a messaging system with SQL, controllers, and models for a social experience"
     ],
-    "github": "https://github.com/jreidgreer/hack-reditor"
+    "github": "https://github.com/Preposterous-Platypus/borrow"
   },
   {
-    "name": "Hack Reditor",
-    "desc": "Cloud-based text editor with social sharing and document management",
+    "name": "Platypus",
+    "desc": "Social club app for small companies/schools that enables sharing of the best local services",
     "tech": ["AngularJS", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
     "role": [
-      "Incorporated local authentication via web tokens (JWT) to protect user documents",
-      "Built a document management back-end with MongoDB that allowed storage of large text files",
-      "Integrated social sharing, allowing users to send completed documents to friends"
+      "Implemented UI with Angular for a clean user experience",
+      "Developed GitHub authentication via Passport for group-specific access",
+      "Created custom services with Angular interacting with a RESTful backend for data"
     ],
-    "github": "https://github.com/jreidgreer/hack-reditor"
+    "github": "https://github.com/Preposterous-Platypus/Platypus"
   },
   {
     "name": "Hack Reditor",
