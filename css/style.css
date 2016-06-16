@@ -106,7 +106,7 @@ body, #wrapper, html {
 	background: rgba(174, 238, 0, 1);
 }
 
-.skills .content {
+.skills .content, .projects .content {
 	position: absolute;
 	top: 90px;
 	width: 100%;
@@ -129,7 +129,7 @@ body, #wrapper, html {
 }
 
 
-.skills .content h2 {
+.skills .content h2, .projects .content h2 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 46px;
 	color: #FFFFFF;

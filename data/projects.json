@@ -1,0 +1,47 @@
+[
+  {
+    "name": "AppButler.io",
+    "desc": "Drag and drop Node.js server designer that sends completed code straight to GitHub",
+    "tech": ["ReactJS", "Redux", "React DnD", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
+    "role": [
+      "Setup development environment with automatic transpiling for ES6/ES7 front & backend",
+      "Designed and implemented a front end with React Router for an intuitive user experience",
+      "Incorporated Redux to manage a state for persistence of the user’s designed server",
+      "Implemented React Drag and Drop to enable users to seamlessly swap endpoints and routers"
+    ],
+    "github": "http://www.AppButler.io"
+  },
+  {
+    "name": "Borrow",
+    "desc": "Cloud-based text editor with social sharing and document management",
+    "tech": ["AngularJS", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
+    "role": [
+      "Incorporated local authentication via web tokens (JWT) to protect user documents",
+      "Built a document management back-end with MongoDB that allowed storage of large text files",
+      "Integrated social sharing, allowing users to send completed documents to friends"
+    ],
+    "github": "https://github.com/jreidgreer/hack-reditor"
+  },
+  {
+    "name": "Hack Reditor",
+    "desc": "Cloud-based text editor with social sharing and document management",
+    "tech": ["AngularJS", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
+    "role": [
+      "Incorporated local authentication via web tokens (JWT) to protect user documents",
+      "Built a document management back-end with MongoDB that allowed storage of large text files",
+      "Integrated social sharing, allowing users to send completed documents to friends"
+    ],
+    "github": "https://github.com/jreidgreer/hack-reditor"
+  },
+  {
+    "name": "Hack Reditor",
+    "desc": "Cloud-based text editor with social sharing and document management",
+    "tech": ["AngularJS", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
+    "role": [
+      "Incorporated local authentication via web tokens (JWT) to protect user documents",
+      "Built a document management back-end with MongoDB that allowed storage of large text files",
+      "Integrated social sharing, allowing users to send completed documents to friends"
+    ],
+    "github": "https://github.com/jreidgreer/hack-reditor"
+  },
+]
