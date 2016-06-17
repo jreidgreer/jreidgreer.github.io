@@ -48,13 +48,26 @@ $.getJSON('../data/projects.json', function(data) {
     // Iterate through different tech tags
     project.tech.forEach(function(tech) {
       $techItem = $('<span></span>', {class: 'project-tech-item'});
-      $techItem.text(tech);
+      $techItem.text(tech + ' ');
       // Add each tag to the container
       $techContainer.append($techItem);
     })
     // Add the tech container to the project
     $projectContainer.append($techContainer);
 
+    // Create container for project roles
+    $roleContainer = $('<ul></ul>', {class: 'project-roles'});
+    // Iterate through the different roles
+    project.role.forEach(function(role) {
+      $roleItem = $('<li></li>', {class: 'project-role-item'});
+      $roleItem.text(role);
+      // Add each tag to the container
+      $roleContainer.append($roleItem);
+    });
+    // Add the role container to the project
+    $projectContainer.append($roleContainer);
+
+    // Add project to the container
     $projects.append($projectContainer);
   });
 });
