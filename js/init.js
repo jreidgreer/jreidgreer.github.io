@@ -38,6 +38,10 @@ $.getJSON('../data/projects.json', function(data) {
     var $projectContainer = $('<div></div>', {class: 'project'});
     $projectContainer.text(project.name);
 
+    $descContainer = $('<div></div>', {class: 'project-desc'});
+    $descContainer.text(project.desc);
+    $projectContainer.append($descContainer);
+
     $projects.append($projectContainer);
   });
 });
