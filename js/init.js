@@ -38,9 +38,22 @@ $.getJSON('../data/projects.json', function(data) {
     var $projectContainer = $('<div></div>', {class: 'project'});
     $projectContainer.text(project.name);
 
+    // Set the description of the project
     $descContainer = $('<div></div>', {class: 'project-desc'});
     $descContainer.text(project.desc);
     $projectContainer.append($descContainer);
+
+    // Create container for tech used in project
+    $techContainer = $('<div></div>', {class: 'project-tech'});
+    // Iterate through different tech tags
+    project.tech.forEach(function(tech) {
+      $techItem = $('<span></span>', {class: 'project-tech-item'});
+      $techItem.text(tech);
+      // Add each tag to the container
+      $techContainer.append($techItem);
+    })
+    // Add the tech container to the project
+    $projectContainer.append($techContainer);
 
     $projects.append($projectContainer);
   });
