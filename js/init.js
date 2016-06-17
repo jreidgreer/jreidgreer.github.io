@@ -11,6 +11,7 @@ $('.main').onepage_scroll({
   responsiveFallback: false,
 });
 
+// Load up skills
 var $strongSkills = $('#skills-strong');
 var $experiencedSkills = $('#skills-experienced');
 
@@ -25,5 +26,18 @@ $.getJSON('../data/skills.json', function(data) {
     } else if (skill.rating === 'Experienced') {
       $experiencedSkills.append($skillContainer);
     }
+  });
+});
+
+
+// Load up projects
+var $projects = $('#projects-container');
+
+$.getJSON('../data/projects.json', function(data) {
+  data.forEach(function(project) {
+    var $projectContainer = $('<div></div>', {class: 'project'});
+    $projectContainer.text(project.name);
+
+    $projects.append($projectContainer);
   });
 });
