@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Reid Greer's GitHub Page</title>
+    <meta name="description" content="GitHub Page for Reid Greer">
+    <meta name="author" content="Reid Greer">
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <!-- Menu is free-floating and absolutely positioned -->
+  <!-- On a side note: thanks for checking my source code! -->
+  <div class="header" id="header">
+    <h1>Reid Greer</h1>
+    <ul class="mainMenu">
+      <li><a href="#" id="menu_section_1" class="menu-active" onclick="$('.main').moveTo(1)">home</a>
+      <li><a href="#" id="menu_section_2" onclick="$('.main').moveTo(2)">skills</a>
+      <li><a href="#" id="menu_section_3" onclick="$('.main').moveTo(3)">projects</a>
+    </ul>
+  </div>
+
+  <div id="wrapper" class="main">
+    <section>
+      <div id="hero">
+        <div class="hero-content">
+        <h2>A full-stack software engineer.</h2>
+        <div class="hero-content-text">
+          <p>
+          I&#39;m a full stack software engineer who is extremely passionate about user experience. I&#39;ve always greatly enjoyed HTML &amp; CSS, they just need a better PR team. I enjoy working with React/Redux, Angular, and a mixture of other front end frameworks.
+          </p>
+
+          <p>
+          An efficient &amp; well-tested backend goes hand in hand with an excellent client experience.  I&#39;m extremely excited by Node&#39;s possibilities &amp; love using Express to make clean servers &amp; RESTful APIs. Designing SQL &amp; NoSQL database schemas is one of my favorite tasks, as it requires you to take in a variety of scaling &amp; efficiency problems into account and try to produce the most optimized result possible.
+          </p>
+
+          <p>
+          When I&#39;m not coding I&#39;m a major news fan, and I&#39;m always down to talk about foreign policy, politics, or economics. I also really enjoy walking, so don&#39;t be surprised if you see me strolling about with headphones on. 
+          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="content">
+        <div class="left-col">
+        <h2>Technical Skills</h2>
+
+        <ul id="skills-strong" class="skills-container">
+          <span class="title">Strong</span>
+        </ul>
+
+        <ul id="skills-experienced" class="skills-container">
+          <span class="title">Experienced</span>
+        </ul>
+        </div>
+
+        <div class="right-col">
+          &nbsp;
+        </div>
+
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="content">
+        <h2>Projects</h2>
+        <div id="projects-container">
+        </div>
+      </div>
+    </section>
+    <div id="footer">
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="./js/init.js"></script>
+</body>
+</html>
