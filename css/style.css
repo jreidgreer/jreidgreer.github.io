@@ -176,6 +176,28 @@ body, html {
   margin-bottom: 5px;
 }
 
+  /* Footer */
+  .footer-title-lead {
+    text-align: center;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+    font-size: 72px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+  }
+
+  .footer-title-sub {
+    text-align: center;
+    margin: 0;
+    font-family: 'Playfair Display SC', serif;
+    text-transform: lowercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
 /* Link Styling */
 .btn {
   font-family: 'Questrial', sans-serif;
@@ -252,6 +274,40 @@ body, html {
     margin: 20px 0;
   }
 
+  /* Footer */
+  .btn-footer-contact {
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: 6px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    /*transition: all 750ms cubic-bezier(0.23, 1, 0.32, 1) 750ms;*/
+  }
+
+  .btn-footer-contact span {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+    border: 1px solid #FFFFFF;
+    /*background: rgba(0, 0, 0, .2);*/
+    display: inline-block;
+  }
+
+  .btn-footer-contact:hover {
+    background: transparent;
+    color: #FF6575;
+  }
+
+  .btn-footer-contact span:hover {
+    color: #FF6575;
+    background: #FFFFFF;
+  } 
+
 /* Section-specific Styling */
 
   /* Intro */
@@ -327,4 +383,10 @@ body, html {
 
 .project-image-main {
   width: 100%;
+}
+
+/* Footer */
+.section-footer {
+  background: #FF6575 url('/img/noise_footer.png');
+  padding: 150px 40px;
 }
