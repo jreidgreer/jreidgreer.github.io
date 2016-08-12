@@ -45,6 +45,16 @@
     "rating": "Strong"
   },
   {
+    "name": "PHP",
+    "type": 3,
+    "rating": "Experienced"
+  },
+  {
+    "name": "Python",
+    "type": 3,
+    "rating": "Experienced"
+  },
+  {
     "name": "D3",
     "type": 1,
     "rating": "Experienced"
@@ -87,11 +97,6 @@
   {
     "name": "React Drag & Drop",
     "type": 1,
-    "rating": "Experienced"
-  },
-  {
-    "name": "Data Security",
-    "type": 3,
     "rating": "Experienced"
   }
 ]

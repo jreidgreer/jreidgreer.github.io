@@ -128,6 +128,10 @@ body, html {
     .skills-title {
       font-size: 52px;
     }
+
+    .skills-list {
+      margin-top: 0;
+    }
 }
 
 /* Portfolio */
@@ -217,6 +221,14 @@ body, html {
   background: #222 url('/img/intro_bg.jpg') no-repeat fixed;
   background-size: cover;
   text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .8);
 }
 
 /* iPhone Query */
