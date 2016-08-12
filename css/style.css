@@ -59,7 +59,7 @@ body, html {
 
 /* Text Styling */
 
-/* Intro */
+  /* Intro */
 
 .title {
   font-family: 'Questrial', sans-serif;
@@ -79,37 +79,40 @@ body, html {
 
 .subtitle {
   font-family: 'Playfair Display SC', serif;
+  text-transform: lowercase;
+  font-size: 30px;
+  letter-spacing: 2px;
   color: #FFFFFF;
 }
 
-/* iPhone Query */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .title {
-      font-size: 92px;
+    /* iPhone Query */
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        .title {
+          font-size: 92px;
+        }
+
+        .subtitle {
+          font-size: 62px;
+          letter-spacing: 8px;
+        }
     }
 
-    .subtitle {
-      font-size: 62px;
-      letter-spacing: 8px;
-    }
-}
-
-/* Skills */
+  /* Skills */
 
 .skills-title {
   font-family: 'Playfair Display SC', serif;
-  font-size: 22px;
+  font-size: 32px;
   color: #222;
   margin-top: 0;
 }
 
 .skills-subtitle {
   font-family: 'Playfair Display SC', serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #222;
   margin-top: 0;
 }
@@ -119,22 +122,22 @@ body, html {
   letter-spacing: 1px;
 }
 
-/* iPhone Query */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .skills-title {
-      font-size: 52px;
+    /* iPhone Query */
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        .skills-title {
+          font-size: 52px;
+        }
+
+        .skills-list {
+          margin-top: 0;
+        }
     }
 
-    .skills-list {
-      margin-top: 0;
-    }
-}
-
-/* Portfolio */
+  /* Portfolio */
 
 .portfolio-title {
   font-family: 'Playfair Display SC', serif;
@@ -142,6 +145,35 @@ body, html {
   letter-spacing: 12px;
   color: #FFFFFF;
   margin-top: 0;
+}
+
+.project-name {
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.project-desc {
+  font-family: 'Playfair Display SC', serif;
+  padding: 5px 0;
+  margin: 10px 0;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.project-roles {
+  font-family: 'Playfair Display SC', serif;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+.project-role-item {
+  margin-bottom: 5px;
 }
 
 /* Link Styling */
@@ -173,50 +205,56 @@ body, html {
   color: #222;
 }
 
-/* iPhone Query */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .btn {
-      padding: 0;
-      font-size: 46px;
-      letter-spacing: 14px;
-    }
+  /* iPhone Query */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      .btn {
+        padding: 0;
+        font-size: 46px;
+        letter-spacing: 14px;
+      }
 
-    .btn-right, .btn-left {
-      float: none;
-      display: block;
-      margin: 200px 0;
-    }
+      .btn-right, .btn-left {
+        float: none;
+        display: block;
+        margin: 200px 0;
+      }
 
-    .btn-default {
-      border: none;
-      background: transparent;
-    }
+      .btn-default {
+        border: none;
+        background: transparent;
+      }
 
-    .btn-default span {
-      width: 75%;
-      padding: 40px;
-      border: 1px solid #FFFFFF;
-      background: rgba(0, 0, 0, .2);
-      display: inline-block;
-    }
+      .btn-default span {
+        width: 75%;
+        padding: 40px;
+        border: 1px solid #FFFFFF;
+        background: rgba(0, 0, 0, .2);
+        display: inline-block;
+      }
 
-    .btn-default:hover {
-      background: transparent;
-      color: #222;
-    }
+      .btn-default:hover {
+        background: transparent;
+        color: #222;
+      }
 
-    .btn-default span:hover {
-      background: #FFFFFF;
-    }
-}
+      .btn-default span:hover {
+        background: #FFFFFF;
+      }
+  }
+
+  /* Portfolio */
+  .portfolio-btn {
+    display: inline-block;
+    margin: 20px 0;
+  }
 
 /* Section-specific Styling */
 
-/* Intro */
+  /* Intro */
 .section-intro {
   background: #222 url('/img/intro_bg.jpg') no-repeat fixed;
   background-size: cover;
@@ -231,49 +269,62 @@ body, html {
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, .8);
 }
 
-/* iPhone Query */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  .section-intro {
-    min-height: 1500px;
-  }
-}
+    /* iPhone Query */
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+      .section-intro {
+        min-height: 1500px;
+      }
+    }
 
 .section-intro-links {
   margin: 80px 0;
   overflow: auto;
 }
 
-/* Skills */
+  /* Skills */
+
+.section-skills {
+  background: #FEFFFF url('/img/noise.png');
+}
 
 .section-skills-computer {
   background: url('/img/computer.svg') no-repeat;
   min-height: 300px;
 }
 
-/* iPhone Query */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .section-skills {
-      min-height: 1500px;
+    /* iPhone Query */
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        .section-skills {
+          min-height: 1500px;
+        }
+
+        .section-skills-computer {
+          background: url('/img/computer.svg') no-repeat center center;
+          min-height: 300px;
+          margin-bottom: 100px;
+        }
     }
 
-    .section-skills-computer {
-      background: url('/img/computer.svg') no-repeat center center;
-      min-height: 300px;
-      margin-bottom: 100px;
-    }
-}
 
-
-/* Portfolio */
+  /* Portfolio */
 .section-portfolio {
   background: #222;
   min-height: 800px;
+}
+
+.portfolio-project {
+  min-height: 600px;
+  outline: none;
+}
+
+.project-image-main {
+  width: 100%;
 }
