@@ -44,7 +44,22 @@ body, html {
   height: 100%;
 }
 
+/* iPhone Query */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .col-left, .col-right {
+      float: none;
+      display: block;
+      width: 100%;
+    }
+}
+
 /* Text Styling */
+
+/* Intro */
 
 .title {
   font-family: 'Questrial', sans-serif;
@@ -67,6 +82,24 @@ body, html {
   color: #FFFFFF;
 }
 
+/* iPhone Query */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .title {
+      font-size: 92px;
+    }
+
+    .subtitle {
+      font-size: 62px;
+      letter-spacing: 8px;
+    }
+}
+
+/* Skills */
+
 .skills-title {
   font-family: 'Playfair Display SC', serif;
   font-size: 22px;
@@ -84,6 +117,27 @@ body, html {
 .skills-list {
   font-family: 'Playfair Display SC', serif;
   letter-spacing: 1px;
+}
+
+/* iPhone Query */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .skills-title {
+      font-size: 52px;
+    }
+}
+
+/* Portfolio */
+
+.portfolio-title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 52px;
+  letter-spacing: 12px;
+  color: #FFFFFF;
+  margin-top: 0;
 }
 
 /* Link Styling */
@@ -115,11 +169,65 @@ body, html {
   color: #222;
 }
 
+/* iPhone Query */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .btn {
+      padding: 0;
+      font-size: 46px;
+      letter-spacing: 14px;
+    }
+
+    .btn-right, .btn-left {
+      float: none;
+      display: block;
+      margin: 200px 0;
+    }
+
+    .btn-default {
+      border: none;
+      background: transparent;
+    }
+
+    .btn-default span {
+      width: 75%;
+      padding: 40px;
+      border: 1px solid #FFFFFF;
+      background: rgba(0, 0, 0, .2);
+      display: inline-block;
+    }
+
+    .btn-default:hover {
+      background: transparent;
+      color: #222;
+    }
+
+    .btn-default span:hover {
+      background: #FFFFFF;
+    }
+}
+
 /* Section-specific Styling */
+
+/* Intro */
 .section-intro {
   background: #222 url('/img/intro_bg.jpg') no-repeat fixed;
   background-size: cover;
-  text-align: center;s
+  text-align: center;
+}
+
+/* iPhone Query */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .section-intro {
+    min-height: 1500px;
+  }
 }
 
 .section-intro-links {
@@ -127,9 +235,33 @@ body, html {
   overflow: auto;
 }
 
+/* Skills */
+
 .section-skills-computer {
   background: url('/img/computer.svg') no-repeat;
   min-height: 300px;
 }
 
+/* iPhone Query */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .section-skills {
+      min-height: 1500px;
+    }
 
+    .section-skills-computer {
+      background: url('/img/computer.svg') no-repeat center center;
+      min-height: 300px;
+      margin-bottom: 100px;
+    }
+}
+
+
+/* Portfolio */
+.section-portfolio {
+  background: #222;
+  min-height: 800px;
+}

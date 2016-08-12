@@ -1,15 +1,5 @@
 [
   {
-    "name": "AngularJS",
-    "type": 1,
-    "rating": "Strong"
-  },
-  {
-    "name": "ReactJS",
-    "type": 1,
-    "rating": "Strong"
-  },
-  {
     "name": "HTML5",
     "type": 1,
     "rating": "Strong"
@@ -22,6 +12,16 @@
   {
     "name": "JavaScript",
     "type": 3,
+    "rating": "Strong"
+  },
+  {
+    "name": "ReactJS",
+    "type": 1,
+    "rating": "Strong"
+  },
+  {
+    "name": "AngularJS",
+    "type": 1,
     "rating": "Strong"
   },
   {
