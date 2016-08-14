@@ -388,5 +388,28 @@ body, html {
 /* Footer */
 .section-footer {
   background: #FF6575 url('/img/noise_footer.png');
-  padding: 150px 40px;
+  padding: 120px 40px;
+}
+
+.footer-gradient {
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,.3) 0%, rgba(255,255,255,0) 60%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,.3) 0%,rgba(255,255,255,0) 60%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  rgba(255,255,255,.3) 0%,rgba(255,255,255,0) 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.footer-illustration {
+  margin-bottom: 50px;
+}
+
+.footer-illustration-knowledge {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 20px;
+  border: 1px solid #FFFFFF;
+  font-family: 'Questrial', sans-serif;
+  font-size: 72px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .2);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #FFFFFF;
 }
