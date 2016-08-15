@@ -95,6 +95,7 @@ $.getJSON('../data/projects.json', function(data) {
 
   $('.portfolio-project-container').slick({
     infinite: true,
+    dots: true
   });
 });
 
