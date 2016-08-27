@@ -52,7 +52,7 @@ $.getJSON('../data/projects.json', function(data) {
     // Add in screenshots
     if(project.mainImage) {
       $imageContainer = $('<img />', {class: 'project-image-main'});
-      $imageContainer.attr('src', '/img/screenshots/' + project.mainImage + '.jpg');
+      $imageContainer.attr('src', '/img/screenshots/' + project.mainImage);
       $projectContainer.append($imageContainer);
     }
     //*************************************

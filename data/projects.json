@@ -3,7 +3,7 @@
     "name": "AppButler.io",
     "desc": "Drag and drop Node.js server designer that sends completed code straight to GitHub",
     "tech": ["ReactJS", "Redux", "React DnD", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
-    "mainImage": "appbutler_main",
+    "mainImage": "appbutler_main.jpg",
     "role": [
       "Setup development environment with automatic transpiling for ES6/ES7 front & backend",
       "Designed and implemented a front end with React Router for an intuitive user experience",
@@ -39,6 +39,7 @@
     "name": "Hack Reditor",
     "desc": "Cloud-based text editor with social sharing and document management",
     "tech": ["AngularJS", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
+    "mainImage": "hackreditor_main.png",
     "role": [
       "Incorporated local authentication via web tokens (JWT) to protect user documents",
       "Built a document management back-end with MongoDB that allowed storage of large text files",
