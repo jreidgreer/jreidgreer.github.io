@@ -22,7 +22,9 @@
     color: transparent;
     border: none;
     outline: none;
-    background: transparent;
+    background: rgba(255, 255, 255, .75);
+    border-radius: 50%;
+    text-align: center;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -31,7 +33,7 @@
 {
     color: transparent;
     outline: none;
-    background: transparent;
+    background: rgba(255, 255, 255, 1);
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -49,12 +51,12 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-size: 40px;
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #222;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -41,6 +41,7 @@
     "name": "Borrow",
     "desc": "Social borrowing app that enables friends to share items & save money",
     "tech": ["AngularJS", "PostgreSQL", "Sequelize ORM", "NodeJS", "Express"],
+    "mainImage": "borrow_main.png",
     "role": [
       "Completed database migration from MongoDB to PostgreSQL for faster data delivery",
       "Integrated FB & local auth with new database for multiple login options",
