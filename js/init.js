@@ -56,15 +56,6 @@ $.getJSON('../data/projects.json', function(data) {
       $projectContainer.append($imageContainer);
     }
     //*************************************
-    // Add deployed links if available
-    if(project.url){
-      $urlContainer = $('<a></a>', {class: 'btn btn-default portfolio-btn'});
-      $urlSpan = $('<span></span>').text('Visit App');
-      $urlContainer.append($urlSpan);
-      $urlContainer.attr('href', project.url);
-      $projectContainer.append($urlContainer);
-    }
-    //*************************************
     // // Create container for tech used in project
     // $techContainer = $('<div></div>', {class: 'project-tech'});
     // // Iterate through different tech tags
@@ -88,6 +79,15 @@ $.getJSON('../data/projects.json', function(data) {
     });
     // Add the role container to the project
     $projectContainer.append($roleContainer);
+    //*************************************
+    // Add deployed links if available
+    if(project.url){
+      $urlContainer = $('<a></a>', {class: 'btn btn-default portfolio-btn'});
+      $urlSpan = $('<span></span>').text('Visit App');
+      $urlContainer.append($urlSpan);
+      $urlContainer.attr('href', project.url);
+      $projectContainer.append($urlContainer);
+    }
     //*************************************
     // Add project to the container
     $projects.append($projectContainer);
