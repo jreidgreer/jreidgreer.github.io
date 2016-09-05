@@ -1,7 +1,7 @@
 [
   {
     "name": "AppButler.io",
-    "desc": "Drag and drop Node.js server designer that sends completed code straight to GitHub",
+    "desc": "Drag and drop Node.js server designer",
     "tech": ["ReactJS", "Redux", "React DnD", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
     "mainImage": "appbutler_main.jpg",
     "role": [
@@ -10,12 +10,23 @@
       "Incorporated Redux to manage a state for persistence of the user’s designed server",
       "Implemented React Drag and Drop to enable users to seamlessly swap endpoints and routers"
     ],
-    "github": "http://www.AppButler.io",
     "url": "http://www.AppButler.io"
   },
   {
+    "name": "Borrow",
+    "desc": "Social borrowing app",
+    "tech": ["AngularJS", "PostgreSQL", "Sequelize ORM", "NodeJS", "Express"],
+    "mainImage": "borrow_main.png",
+    "role": [
+      "Completed database migration from MongoDB to PostgreSQL for faster data delivery",
+      "Integrated FB & local auth with new database for multiple login options",
+      "Created a messaging system with SQL, controllers, and models for a social experience"
+    ],
+    "github": "https://github.com/jreidgreer/borrow"
+  },
+  {
     "name": "Platypus",
-    "desc": "Social club app for small companies/schools that enables sharing of the best local services",
+    "desc": "Social club app for sharing of the best local services",
     "tech": ["AngularJS", "MongoDB", "Mongoose ORM", "NodeJS", "Express"],
     "mainImage": "platypus_main.png",
     "role": [
@@ -23,7 +34,7 @@
       "Developed GitHub authentication via Passport for group-specific access",
       "Created custom services with Angular interacting with a RESTful backend for data"
     ],
-    "github": "https://github.com/Preposterous-Platypus/Platypus"
+    "github": "https://github.com/jreidgreer/Platypus"
   },
   {
     "name": "Hack Reditor",
@@ -36,17 +47,5 @@
       "Integrated social sharing, allowing users to send completed documents to friends"
     ],
     "github": "https://github.com/jreidgreer/hack-reditor"
-  },
-  {
-    "name": "Borrow",
-    "desc": "Social borrowing app that enables friends to share items & save money",
-    "tech": ["AngularJS", "PostgreSQL", "Sequelize ORM", "NodeJS", "Express"],
-    "mainImage": "borrow_main.png",
-    "role": [
-      "Completed database migration from MongoDB to PostgreSQL for faster data delivery",
-      "Integrated FB & local auth with new database for multiple login options",
-      "Created a messaging system with SQL, controllers, and models for a social experience"
-    ],
-    "github": "https://github.com/Preposterous-Platypus/borrow"
   }
 ]

@@ -118,7 +118,7 @@ body, html {
 }
 
 .skills-list {
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Questrial', sans-serif;
   letter-spacing: 1px;
 }
 
@@ -140,15 +140,16 @@ body, html {
   /* Portfolio */
 
 .portfolio-title {
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
   font-size: 52px;
   letter-spacing: 12px;
   color: #FFFFFF;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
 }
 
 .project-name {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Playfair Display SC', serif;
   text-transform: uppercase;
   letter-spacing: 6px;
   font-size: 32px;
@@ -158,6 +159,7 @@ body, html {
 
 .project-desc {
   font-family: 'Playfair Display SC', serif;
+  letter-spacing: 2px;
   padding: 7px 0;
   margin: 15px 0;
   border-top: 1px solid #FFFFFF;
@@ -309,6 +311,7 @@ body, html {
   /* Portfolio */
   .portfolio-btn {
     display: inline-block;
+    outline: none;
     margin: 20px 0 20px 25px;
   }
 
@@ -372,9 +375,13 @@ body, html {
     and (orientation: portrait) {
 
       .btn-footer-contact {
-        width: 75%;
+        width: 100%;
         font-size: 46px;
         letter-spacing: 14px;
+      }
+
+      .btn-footer-contact span {
+        background: transparent;
       }
   }
 
@@ -443,7 +450,6 @@ body, html {
   /* Portfolio */
 .section-portfolio {
   background: #222;
-  min-height: 700px;
   padding: 50px;
 }
 

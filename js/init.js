@@ -86,6 +86,17 @@ $.getJSON('../data/projects.json', function(data) {
       $urlSpan = $('<span></span>').text('Visit App');
       $urlContainer.append($urlSpan);
       $urlContainer.attr('href', project.url);
+      $urlContainer.attr('target', '_blank');
+      $projectContainer.append($urlContainer);
+    }
+    //*************************************
+    // Add GitHub links if available
+    if(project.github){
+      $urlContainer = $('<a></a>', {class: 'btn btn-default portfolio-btn'});
+      $urlSpan = $('<span></span>').text('View Source');
+      $urlContainer.append($urlSpan);
+      $urlContainer.attr('href', project.github);
+      $urlContainer.attr('target', '_blank');
       $projectContainer.append($urlContainer);
     }
     //*************************************
